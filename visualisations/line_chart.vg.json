@@ -1,0 +1,107 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 160,
+  "width": 900,
+  "title": {
+    "text": "Average Suicides over time",
+    "align": "center",
+    "dx": 45,
+    "fontSize": 16
+  },
+  "projection": {
+    "type": "equalEarth"
+  },
+  "config": {
+    "style": {
+      "cell": {
+        "stroke": "transparent"
+      }
+    },
+    "background": "#ebded0"
+  },
+  "data": {
+    "url": "../data/suicides_per_continent.csv"
+  },
+  "params": [
+    {
+      "name": "Sex",
+      "value": "both",
+      "bind": {
+        "input": "select",
+        "options": [
+          "both",
+          "male",
+          "female"
+        ],
+        "labels": [
+          "All",
+          "Male",
+          "Female"
+        ]
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "datum.type == Sex"
+    }
+  ],
+  "mark": {
+    "type": "line",
+    "strokeWidth": 3,
+    "point": true
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "temporal",
+      "axis": {
+        "grid": false,
+        "title": "Year"
+      }
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          0,
+          30
+        ]
+      },
+      "axis": {
+        "grid": false,
+        "title": "Average suicides per 100,000"
+      }
+    },
+    "color": {
+      "field": "continent",
+      "type": "nominal",
+      "scale": {
+        "range": [
+          "#bb8825",
+          "#e75d1e",
+          "#d04632",
+          "#8f3a36",
+          "#6f3734",
+          "#3e3534"
+        ]
+      },
+      "legend": {
+        "title": "Continent"
+      }
+    },
+    "tooltip": [
+      {
+        "field": "continent",
+        "type": "nominal",
+        "title": "Continent"
+      },
+      {
+        "field": "value",
+        "type": "quantitative",
+        "title": "Suicide rate"
+      }
+    ]
+  }
+}
