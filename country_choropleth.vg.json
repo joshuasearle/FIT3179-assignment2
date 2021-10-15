@@ -34,7 +34,7 @@
       }
     },
     {
-      "name": "Sex",
+      "name": "Gender",
       "value": "both_suicide",
       "bind": {
         "input": "select",
@@ -56,7 +56,7 @@
       "filter": "datum.year == Year"
     },
     {
-      "filter": "datum.type == Sex"
+      "filter": "datum.type == Gender"
     },
     {
       "lookup": "country",

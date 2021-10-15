@@ -24,7 +24,7 @@
   },
   "params": [
     {
-      "name": "Sex",
+      "name": "Gender",
       "value": "both",
       "bind": {
         "input": "select",
@@ -43,7 +43,7 @@
   ],
   "transform": [
     {
-      "filter": "datum.type == Sex"
+      "filter": "datum.type == Gender"
     }
   ],
   "mark": {
