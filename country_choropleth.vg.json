@@ -20,7 +20,7 @@
     "background": "#ebded0"
   },
   "data": {
-    "url": "../data/clean.csv"
+    "url": "./data/clean.csv"
   },
   "params": [
     {
@@ -62,7 +62,7 @@
       "lookup": "country",
       "from": {
         "data": {
-          "url": "../data/ne.topojson",
+          "url": "./data/ne.topojson",
           "format": {
             "type": "topojson",
             "feature": "ne"

@@ -20,7 +20,7 @@
     "background": "#ebded0"
   },
   "data": {
-    "url": "../data/suicides_per_continent.csv"
+    "url": "./data/suicides_per_continent.csv"
   },
   "params": [
     {
