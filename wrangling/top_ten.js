@@ -33,7 +33,7 @@ data.forEach(row => {
 
 data.unshift(['country', 'year', 'type', 'value', 'continent'])
 
-let ranks = [['country', 'actual', 'continent', 'year', 'type', 'value', 'rank', 'direction']]
+let ranks = [['country', 'actual', 'continent', 'year', 'type', 'value', 'rank', 'direction', 'sex']]
 
 for (c of ['Africa', 'Asia', 'Europe', 'South America', 'North America', 'Oceania', 'All']) {
   for (y of years) {
@@ -44,12 +44,20 @@ for (c of ['Africa', 'Asia', 'Europe', 'South America', 'North America', 'Oceani
 
       filtered.sort((a, b) => b[3] - a[3])
       for (let i = 0; i < 10; i++) {
-        ranks.push([filtered[i][0], filtered[i][4], c, y, t, filtered[i][3], i + 1, 'highest'])
+        let sex = filtered[i][2];
+        if (sex == 'both_suicide') sex = 'All';
+        if (sex == 'male_suicide') sex = 'Male';
+        if (sex == 'female_suicide') sex = 'Female';
+        ranks.push([filtered[i][0], filtered[i][4], c, y, t, filtered[i][3], i + 1, 'highest', sex])
       }
 
       filtered.sort((a, b) => a[3] - b[3])
       for (let i = 0; i < 10; i++) {
-        ranks.push([filtered[i][0], filtered[i][4], c, y, t, filtered[i][3], i + 1, 'lowest'])
+        let sex = filtered[i][2];
+        if (sex == 'both_suicide') sex = 'All';
+        if (sex == 'male_suicide') sex = 'Male';
+        if (sex == 'female_suicide') sex = 'Female';
+        ranks.push([filtered[i][0], filtered[i][4], c, y, t, filtered[i][3], i + 1, 'lowest', sex])
       }
     }
   }
