@@ -37,3 +37,10 @@ html {
   padding: 0;
   margin-bottom: 20em;
 }
+
+.tops {
+  padding-top: 2em;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}

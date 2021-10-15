@@ -1,0 +1,244 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Highest / Lowest Suicide Rates",
+    "align": "center",
+    "dx": 530,
+    "dy": -60,
+    "fontSize": 16
+  },
+  "config": {
+    "style": {
+      "cell": {
+        "stroke": "transparent"
+      }
+    },
+    "concat": {
+      "spacing": 50
+    },
+    "background": "#ebded0"
+  },
+  "data": {
+    "url": "../data/top_ten.csv"
+  },
+  "params": [
+    {
+      "name": "All",
+      "value": "All"
+    },
+    {
+      "name": "Year",
+      "value": "2019",
+      "bind": {
+        "input": "range",
+        "min": 2000,
+        "max": 2019,
+        "step": 1
+      }
+    },
+    {
+      "name": "Sex",
+      "value": "both_suicide",
+      "bind": {
+        "input": "select",
+        "options": [
+          "both_suicide",
+          "male_suicide",
+          "female_suicide"
+        ],
+        "labels": [
+          "All",
+          "Male",
+          "Female"
+        ]
+      }
+    },
+    {
+      "name": "Continent",
+      "value": "All",
+      "bind": {
+        "input": "select",
+        "options": [
+          "All",
+          "Africa",
+          "Asia",
+          "Europe",
+          "North America",
+          "Oceania",
+          "South America"
+        ]
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "datum.year == Year"
+    },
+    {
+      "filter": "datum.type == Sex"
+    },
+    {
+      "filter": {
+        "or": [
+          "datum.continent == Continent"
+        ]
+      }
+    }
+  ],
+  "hconcat": [
+    {
+      "height": 200,
+      "width": 450,
+      "transform": [
+        {
+          "filter": "datum.direction == \"highest\""
+        }
+      ],
+      "mark": {
+        "type": "bar"
+      },
+      "encoding": {
+        "tooltip": [
+          {
+            "field": "country",
+            "type": "nominal",
+            "title": "Country"
+          },
+          {
+            "field": "actual",
+            "type": "nominal",
+            "title": "Continent"
+          },
+          {
+            "field": "value",
+            "type": "quantitative",
+            "title": "Suicide rate"
+          },
+          {
+            "field": "year",
+            "type": "quantitative",
+            "title": "Year"
+          },
+          {
+            "field": "sex",
+            "type": "nominal",
+            "title": "Sex"
+          }
+        ],
+        "x": {
+          "field": "country",
+          "type": "nominal",
+          "sort": "y",
+          "axis": {
+            "grid": false,
+            "title": "Country"
+          }
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative",
+          "axis": {
+            "grid": false,
+            "title": "Suicides per 100,000"
+          }
+        },
+        "color": {
+          "field": "actual",
+          "type": "nominal",
+          "scale": {
+            "range": [
+              "#bb8825",
+              "#e75d1e",
+              "#d04632",
+              "#8f3a36",
+              "#6f3734",
+              "#3e3534"
+            ]
+          },
+          "legend": {
+            "title": "Continent",
+            "orient": "none",
+            "direction": "horizontal",
+            "legendX": 310,
+            "legendY": 400
+          }
+        }
+      }
+    },
+    {
+      "height": 200,
+      "width": 450,
+      "transform": [
+        {
+          "filter": "datum.direction == \"lowest\""
+        }
+      ],
+      "mark": {
+        "type": "bar"
+      },
+      "encoding": {
+        "tooltip": [
+          {
+            "field": "country",
+            "type": "nominal",
+            "title": "Country"
+          },
+          {
+            "field": "actual",
+            "type": "nominal",
+            "title": "Continent"
+          },
+          {
+            "field": "value",
+            "type": "quantitative",
+            "title": "Suicide rate"
+          },
+          {
+            "field": "year",
+            "type": "quantitative",
+            "title": "Year"
+          },
+          {
+            "field": "sex",
+            "type": "nominal",
+            "title": "Sex"
+          }
+        ],
+        "x": {
+          "field": "country",
+          "type": "nominal",
+          "sort": "-y",
+          "axis": {
+            "grid": false,
+            "title": "Country"
+          }
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative",
+          "axis": {
+            "grid": false,
+            "title": "Suicides per 100,000"
+          }
+        },
+        "color": {
+          "field": "actual",
+          "type": "nominal",
+          "scale": {
+            "range": [
+              "#bb8825",
+              "#e75d1e",
+              "#d04632",
+              "#8f3a36",
+              "#6f3734",
+              "#3e3534"
+            ]
+          },
+          "legend": {
+            "title": "Continent"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -22,6 +22,11 @@
   <div class="choropleth">
     <div id="country_choropleth"></div>
   </div>
+  <div class="tops">
+    <div id="highest"></div>
+  </div>
+
+
 
   <script type="text/javascript">
 
@@ -32,6 +37,16 @@
 
     const line_chart = "./visualisations/line_chart.vg.json";
     vegaEmbed('#line_chart', line_chart)
+      .then(() => { })
+      .catch(console.error);
+
+    const highest = "./visualisations/top_ten_highest.vg.json";
+    vegaEmbed('#highest', highest)
+      .then(() => { })
+      .catch(console.error);
+
+    const lowest = "./visualisations/top_ten_lowest.vg.json";
+    vegaEmbed('#lowest', lowest)
       .then(() => { })
       .catch(console.error);
   </script>
