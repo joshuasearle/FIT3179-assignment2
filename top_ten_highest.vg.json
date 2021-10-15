@@ -19,7 +19,7 @@
     "background": "#ebded0"
   },
   "data": {
-    "url": "../data/top_ten.csv"
+    "url": "./data/top_ten.csv"
   },
   "params": [
     {
