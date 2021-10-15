@@ -4619,66 +4619,66 @@ Indonesia,2001,female_suicide,1.8
 Indonesia,2000,both_suicide,3.5
 Indonesia,2000,male_suicide,5
 Indonesia,2000,female_suicide,1.9
-Iran (Islamic Republic of),2019,both_suicide,5.2
-Iran (Islamic Republic of),2019,male_suicide,7.7
-Iran (Islamic Republic of),2019,female_suicide,2.8
-Iran (Islamic Republic of),2018,both_suicide,5.7
-Iran (Islamic Republic of),2018,male_suicide,8.4
-Iran (Islamic Republic of),2018,female_suicide,2.9
-Iran (Islamic Republic of),2017,both_suicide,6
-Iran (Islamic Republic of),2017,male_suicide,9
-Iran (Islamic Republic of),2017,female_suicide,3
-Iran (Islamic Republic of),2016,both_suicide,6.2
-Iran (Islamic Republic of),2016,male_suicide,9.2
-Iran (Islamic Republic of),2016,female_suicide,3.2
-Iran (Islamic Republic of),2015,both_suicide,6.3
-Iran (Islamic Republic of),2015,male_suicide,9.3
-Iran (Islamic Republic of),2015,female_suicide,3.3
-Iran (Islamic Republic of),2014,both_suicide,6.5
-Iran (Islamic Republic of),2014,male_suicide,9.3
-Iran (Islamic Republic of),2014,female_suicide,3.6
-Iran (Islamic Republic of),2013,both_suicide,6.6
-Iran (Islamic Republic of),2013,male_suicide,9.4
-Iran (Islamic Republic of),2013,female_suicide,3.8
-Iran (Islamic Republic of),2012,both_suicide,6.7
-Iran (Islamic Republic of),2012,male_suicide,9.4
-Iran (Islamic Republic of),2012,female_suicide,4.1
-Iran (Islamic Republic of),2011,both_suicide,6.8
-Iran (Islamic Republic of),2011,male_suicide,9.2
-Iran (Islamic Republic of),2011,female_suicide,4.3
-Iran (Islamic Republic of),2010,both_suicide,6.3
-Iran (Islamic Republic of),2010,male_suicide,8.3
-Iran (Islamic Republic of),2010,female_suicide,4.3
-Iran (Islamic Republic of),2009,both_suicide,6.2
-Iran (Islamic Republic of),2009,male_suicide,8
-Iran (Islamic Republic of),2009,female_suicide,4.3
-Iran (Islamic Republic of),2008,both_suicide,6.2
-Iran (Islamic Republic of),2008,male_suicide,7.8
-Iran (Islamic Republic of),2008,female_suicide,4.5
-Iran (Islamic Republic of),2007,both_suicide,6.4
-Iran (Islamic Republic of),2007,male_suicide,8
-Iran (Islamic Republic of),2007,female_suicide,4.8
-Iran (Islamic Republic of),2006,both_suicide,6
-Iran (Islamic Republic of),2006,male_suicide,7.3
-Iran (Islamic Republic of),2006,female_suicide,4.6
-Iran (Islamic Republic of),2005,both_suicide,6.3
-Iran (Islamic Republic of),2005,male_suicide,7.6
-Iran (Islamic Republic of),2005,female_suicide,4.9
-Iran (Islamic Republic of),2004,both_suicide,6.7
-Iran (Islamic Republic of),2004,male_suicide,8.1
-Iran (Islamic Republic of),2004,female_suicide,5.3
-Iran (Islamic Republic of),2003,both_suicide,7
-Iran (Islamic Republic of),2003,male_suicide,8.3
-Iran (Islamic Republic of),2003,female_suicide,5.5
-Iran (Islamic Republic of),2002,both_suicide,7.5
-Iran (Islamic Republic of),2002,male_suicide,9.1
-Iran (Islamic Republic of),2002,female_suicide,5.9
-Iran (Islamic Republic of),2001,both_suicide,7.8
-Iran (Islamic Republic of),2001,male_suicide,9.3
-Iran (Islamic Republic of),2001,female_suicide,6.1
-Iran (Islamic Republic of),2000,both_suicide,8
-Iran (Islamic Republic of),2000,male_suicide,9.7
-Iran (Islamic Republic of),2000,female_suicide,6.2
+Iran,2019,both_suicide,5.2
+Iran,2019,male_suicide,7.7
+Iran,2019,female_suicide,2.8
+Iran,2018,both_suicide,5.7
+Iran,2018,male_suicide,8.4
+Iran,2018,female_suicide,2.9
+Iran,2017,both_suicide,6
+Iran,2017,male_suicide,9
+Iran,2017,female_suicide,3
+Iran,2016,both_suicide,6.2
+Iran,2016,male_suicide,9.2
+Iran,2016,female_suicide,3.2
+Iran,2015,both_suicide,6.3
+Iran,2015,male_suicide,9.3
+Iran,2015,female_suicide,3.3
+Iran,2014,both_suicide,6.5
+Iran,2014,male_suicide,9.3
+Iran,2014,female_suicide,3.6
+Iran,2013,both_suicide,6.6
+Iran,2013,male_suicide,9.4
+Iran,2013,female_suicide,3.8
+Iran,2012,both_suicide,6.7
+Iran,2012,male_suicide,9.4
+Iran,2012,female_suicide,4.1
+Iran,2011,both_suicide,6.8
+Iran,2011,male_suicide,9.2
+Iran,2011,female_suicide,4.3
+Iran,2010,both_suicide,6.3
+Iran,2010,male_suicide,8.3
+Iran,2010,female_suicide,4.3
+Iran,2009,both_suicide,6.2
+Iran,2009,male_suicide,8
+Iran,2009,female_suicide,4.3
+Iran,2008,both_suicide,6.2
+Iran,2008,male_suicide,7.8
+Iran,2008,female_suicide,4.5
+Iran,2007,both_suicide,6.4
+Iran,2007,male_suicide,8
+Iran,2007,female_suicide,4.8
+Iran,2006,both_suicide,6
+Iran,2006,male_suicide,7.3
+Iran,2006,female_suicide,4.6
+Iran,2005,both_suicide,6.3
+Iran,2005,male_suicide,7.6
+Iran,2005,female_suicide,4.9
+Iran,2004,both_suicide,6.7
+Iran,2004,male_suicide,8.1
+Iran,2004,female_suicide,5.3
+Iran,2003,both_suicide,7
+Iran,2003,male_suicide,8.3
+Iran,2003,female_suicide,5.5
+Iran,2002,both_suicide,7.5
+Iran,2002,male_suicide,9.1
+Iran,2002,female_suicide,5.9
+Iran,2001,both_suicide,7.8
+Iran,2001,male_suicide,9.3
+Iran,2001,female_suicide,6.1
+Iran,2000,both_suicide,8
+Iran,2000,male_suicide,9.7
+Iran,2000,female_suicide,6.2
 Iraq,2019,both_suicide,3.6
 Iraq,2019,male_suicide,5.2
 Iraq,2019,female_suicide,2
@@ -9539,66 +9539,66 @@ Switzerland,2001,female_suicide,12.2
 Switzerland,2000,both_suicide,20.2
 Switzerland,2000,male_suicide,28.4
 Switzerland,2000,female_suicide,12.4
-Syrian Arab Republic,2019,both_suicide,2
-Syrian Arab Republic,2019,male_suicide,3.2
-Syrian Arab Republic,2019,female_suicide,0.7
-Syrian Arab Republic,2018,both_suicide,1.9
-Syrian Arab Republic,2018,male_suicide,3.2
-Syrian Arab Republic,2018,female_suicide,0.7
-Syrian Arab Republic,2017,both_suicide,1.8
-Syrian Arab Republic,2017,male_suicide,2.9
-Syrian Arab Republic,2017,female_suicide,0.7
-Syrian Arab Republic,2016,both_suicide,1.6
-Syrian Arab Republic,2016,male_suicide,2.6
-Syrian Arab Republic,2016,female_suicide,0.7
-Syrian Arab Republic,2015,both_suicide,1.7
-Syrian Arab Republic,2015,male_suicide,2.8
-Syrian Arab Republic,2015,female_suicide,0.7
-Syrian Arab Republic,2014,both_suicide,1.8
-Syrian Arab Republic,2014,male_suicide,2.9
-Syrian Arab Republic,2014,female_suicide,0.7
-Syrian Arab Republic,2013,both_suicide,1.8
-Syrian Arab Republic,2013,male_suicide,2.8
-Syrian Arab Republic,2013,female_suicide,0.7
-Syrian Arab Republic,2012,both_suicide,1.6
-Syrian Arab Republic,2012,male_suicide,2.5
-Syrian Arab Republic,2012,female_suicide,0.6
-Syrian Arab Republic,2011,both_suicide,1.5
-Syrian Arab Republic,2011,male_suicide,2.4
-Syrian Arab Republic,2011,female_suicide,0.6
-Syrian Arab Republic,2010,both_suicide,1.5
-Syrian Arab Republic,2010,male_suicide,2.4
-Syrian Arab Republic,2010,female_suicide,0.6
-Syrian Arab Republic,2009,both_suicide,1.4
-Syrian Arab Republic,2009,male_suicide,2.3
-Syrian Arab Republic,2009,female_suicide,0.5
-Syrian Arab Republic,2008,both_suicide,1.4
-Syrian Arab Republic,2008,male_suicide,2.3
-Syrian Arab Republic,2008,female_suicide,0.5
-Syrian Arab Republic,2007,both_suicide,1.4
-Syrian Arab Republic,2007,male_suicide,2.2
-Syrian Arab Republic,2007,female_suicide,0.5
-Syrian Arab Republic,2006,both_suicide,1.4
-Syrian Arab Republic,2006,male_suicide,2.2
-Syrian Arab Republic,2006,female_suicide,0.5
-Syrian Arab Republic,2005,both_suicide,1.4
-Syrian Arab Republic,2005,male_suicide,2.1
-Syrian Arab Republic,2005,female_suicide,0.5
-Syrian Arab Republic,2004,both_suicide,1.4
-Syrian Arab Republic,2004,male_suicide,2.1
-Syrian Arab Republic,2004,female_suicide,0.6
-Syrian Arab Republic,2003,both_suicide,1.3
-Syrian Arab Republic,2003,male_suicide,2.1
-Syrian Arab Republic,2003,female_suicide,0.5
-Syrian Arab Republic,2002,both_suicide,1.4
-Syrian Arab Republic,2002,male_suicide,2.2
-Syrian Arab Republic,2002,female_suicide,0.6
-Syrian Arab Republic,2001,both_suicide,1.4
-Syrian Arab Republic,2001,male_suicide,2.2
-Syrian Arab Republic,2001,female_suicide,0.6
-Syrian Arab Republic,2000,both_suicide,1.5
-Syrian Arab Republic,2000,male_suicide,2.2
-Syrian Arab Republic,2000,female_suicide,0.7
+Syria,2019,both_suicide,2
+Syria,2019,male_suicide,3.2
+Syria,2019,female_suicide,0.7
+Syria,2018,both_suicide,1.9
+Syria,2018,male_suicide,3.2
+Syria,2018,female_suicide,0.7
+Syria,2017,both_suicide,1.8
+Syria,2017,male_suicide,2.9
+Syria,2017,female_suicide,0.7
+Syria,2016,both_suicide,1.6
+Syria,2016,male_suicide,2.6
+Syria,2016,female_suicide,0.7
+Syria,2015,both_suicide,1.7
+Syria,2015,male_suicide,2.8
+Syria,2015,female_suicide,0.7
+Syria,2014,both_suicide,1.8
+Syria,2014,male_suicide,2.9
+Syria,2014,female_suicide,0.7
+Syria,2013,both_suicide,1.8
+Syria,2013,male_suicide,2.8
+Syria,2013,female_suicide,0.7
+Syria,2012,both_suicide,1.6
+Syria,2012,male_suicide,2.5
+Syria,2012,female_suicide,0.6
+Syria,2011,both_suicide,1.5
+Syria,2011,male_suicide,2.4
+Syria,2011,female_suicide,0.6
+Syria,2010,both_suicide,1.5
+Syria,2010,male_suicide,2.4
+Syria,2010,female_suicide,0.6
+Syria,2009,both_suicide,1.4
+Syria,2009,male_suicide,2.3
+Syria,2009,female_suicide,0.5
+Syria,2008,both_suicide,1.4
+Syria,2008,male_suicide,2.3
+Syria,2008,female_suicide,0.5
+Syria,2007,both_suicide,1.4
+Syria,2007,male_suicide,2.2
+Syria,2007,female_suicide,0.5
+Syria,2006,both_suicide,1.4
+Syria,2006,male_suicide,2.2
+Syria,2006,female_suicide,0.5
+Syria,2005,both_suicide,1.4
+Syria,2005,male_suicide,2.1
+Syria,2005,female_suicide,0.5
+Syria,2004,both_suicide,1.4
+Syria,2004,male_suicide,2.1
+Syria,2004,female_suicide,0.6
+Syria,2003,both_suicide,1.3
+Syria,2003,male_suicide,2.1
+Syria,2003,female_suicide,0.5
+Syria,2002,both_suicide,1.4
+Syria,2002,male_suicide,2.2
+Syria,2002,female_suicide,0.6
+Syria,2001,both_suicide,1.4
+Syria,2001,male_suicide,2.2
+Syria,2001,female_suicide,0.6
+Syria,2000,both_suicide,1.5
+Syria,2000,male_suicide,2.2
+Syria,2000,female_suicide,0.7
 Tajikistan,2019,both_suicide,4.3
 Tajikistan,2019,male_suicide,5.7
 Tajikistan,2019,female_suicide,2.8

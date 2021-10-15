@@ -75,7 +75,7 @@ Hungary,Europe
 Iceland,Europe
 India,Asia
 Indonesia,Asia
-Iran (Islamic Republic of),Asia
+Iran,Asia
 Iraq,Asia
 Ireland,Europe
 Israel,Asia
@@ -157,7 +157,7 @@ Sudan,Africa
 Suriname,South America
 Sweden,Europe
 Switzerland,Europe
-Syrian Arab Republic,Asia
+Syria,Asia
 Tajikistan,Asia
 Thailand,Asia
 Timor-Leste,Asia
