@@ -1,12 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {
-    "text": "Highest / Lowest Suicide Rates",
-    "align": "center",
-    "dx": 530,
-    "dy": -60,
-    "fontSize": 16
-  },
   "config": {
     "style": {
       "cell": {
@@ -88,7 +81,7 @@
   "hconcat": [
     {
       "height": 200,
-      "width": 450,
+      "width": 550,
       "transform": [
         {
           "filter": "datum.direction == \"highest\""
@@ -147,19 +140,19 @@
           "type": "nominal",
           "scale": {
             "range": [
-              "#bb8825",
-              "#e75d1e",
-              "#d04632",
-              "#8f3a36",
-              "#6f3734",
-              "#3e3534"
+              "#671919",
+              "#5c5c23",
+              "#664019",
+              "#cc6666",
+              "#b98046",
+              "#9f6080"
             ]
           },
           "legend": {
             "title": "Continent",
             "orient": "none",
             "direction": "horizontal",
-            "legendX": 310,
+            "legendX": 400,
             "legendY": 400
           }
         }
@@ -167,7 +160,7 @@
     },
     {
       "height": 200,
-      "width": 450,
+      "width": 550,
       "transform": [
         {
           "filter": "datum.direction == \"lowest\""
@@ -217,6 +210,7 @@
           "field": "value",
           "type": "quantitative",
           "axis": {
+            "orient": "right",
             "grid": false,
             "title": "Suicides per 100,000"
           }
@@ -226,12 +220,12 @@
           "type": "nominal",
           "scale": {
             "range": [
-              "#bb8825",
-              "#e75d1e",
-              "#d04632",
-              "#8f3a36",
-              "#6f3734",
-              "#3e3534"
+              "#671919",
+              "#5c5c23",
+              "#664019",
+              "#cc6666",
+              "#b98046",
+              "#9f6080"
             ]
           },
           "legend": {

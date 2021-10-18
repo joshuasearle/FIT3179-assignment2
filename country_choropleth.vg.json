@@ -2,12 +2,6 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "height": 600,
   "width": 1000,
-  "title": {
-    "text": "Suicides per 100,000 people, per country, over time",
-    "align": "center",
-    "dx": 10,
-    "fontSize": 16
-  },
   "projection": {
     "type": "equalEarth"
   },

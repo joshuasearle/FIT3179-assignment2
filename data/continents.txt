@@ -105,7 +105,7 @@ Malta,Europe
 Mauritania,Africa
 Mauritius,Africa
 Mexico,North America
-Micronesia (Federated States of),Oceania
+Micronesia,Oceania
 Mongolia,Asia
 Montenegro,Europe
 Morocco,Africa
@@ -130,13 +130,13 @@ Poland,Europe
 Portugal,Europe
 Qatar,Asia
 Republic of Korea,Asia
-Republic of Moldova,Europe
+Moldova,Europe
 North Macedonia,Europe
 Romania,Europe
 Russia,Europe
 Rwanda,Africa
 Saint Lucia,North America
-Saint Vincent and the Grenadines,North America
+Vinc./G,North America
 Samoa,Oceania
 Sao Tome and Principe,Africa
 Saudi Arabia,Asia

@@ -14,18 +14,68 @@
 </head>
 
 <body>
+  <!-- <div class="one test">o</div>
+  <div class="two test">t</div>
+  <div class="three test">th</div>
+  <div class="four test">f</div>
+  <div class="five test">fi</div>
+  <div class="six test">s</div> -->
 
   <h1 class="title">Global Suicide Rates</h1>
+  <div class="intro">
+    <div class="intro__col">
+      It is estimated that <strong>one in 5,000 - 15,000</strong> dies from suicide every year globally resulting in a global suicide rate of <strong>10.5 deaths per 100,000</strong>. This results in more than <strong>700,000</strong> people taking their lives globally, every year.
+    </div>
+    <div class="intro__col">
+      Among 15 - 19 year olds, suicide is the <strong>fourth</strong> leading cause of death, and <strong>77%</strong> of suicides occur in low and middle income countries. Every suicide causes <strong>lasting</strong> damage that leaves long lasting effects on <strong>friends, family, and community</strong>.
+    </div>
+  </div>
+  
   <div class="line_chart">
+    <h2 class="heading">Average Suicides over Time</h2>
     <div id="line_chart"></div>
   </div>
+
+  <div class="intro">
+    <div class="intro__col">
+      There has been shown that there is a <strong>significant</strong> difference in suicide rates between those who identify as males, and thoses who identify as females. Globally, males are <strong>1.8</strong> time more likely to commit suicide (2018), but in the <strong>western world</strong>, males suicide rates are <strong>3 to 4</strong> times higher than female suicide rates.
+    </div>
+    <div class="intro__col">Contrasting to these facts, females are <strong>much more likely</strong> to have suicidal thoughts, which asks the question why are male suicide rates higher than female rates if females have more suicidal thoughts? This is known as the <strong>Suicide Gender Paradox.</strong></div>
+  </div>
+  <p class="note">Note: Each visualisation has a gender dropdown to compare the rates of males and females.</p>
+
+
+
   <div class="choropleth">
+    <h2 class="heading">Suicides per 100,000 People, per Country, over Time</h2>
     <div id="country_choropleth"></div>
   </div>
+
+  <p class="note">Note: Each colour group represents ~16% of countries. I.e. the first colour represents the countries that fall into the lowest 1/6 of suicide rates, and the last group represents the countries that fall into the highest 1/6 of suicide rates.</p>
+
+  <div class="intro">
+    <div class="intro__col">
+      The <strong>highest</strong> suicide rate recorded since the year 2000 was in <strong>Lesotho</strong>, a country completed encapsulated by South Africa, with a suicide rate of <strong>92.6</strong> suicides per 100,000 people. Contrasting to this, both <strong>Saint Vincent and the Grenadines</strong> and <strong>Antigua and Barbuda</strong> both have several reported years with <strong>zero</strong> suicides.
+    </div>
+    <div class="intro__col">
+      Other notable countries include <strong>Russia</strong>, which <strong>consistently</strong> has a <strong>very high</strong> suicide rate, <strong>Australia, New Zealand, USA and China</strong>, which all hold a <strong>slightly higher than average</strong> suicide rates, and finally <strong>Cyprus</strong>, which has the <strong>lowest</strong> suicide rate in <strong>Europe</strong>, the continent with the highest average suicide rate.
+    </div>
+  </div>
+
   <div class="tops">
+    <div class="dual_heading">
+      <h2>Top 10 Highest Suicide Rates</h2>
+      <h2>Top 10 Lowest Suicide Rates</h2>
+    </div>
     <div id="highest"></div>
   </div>
 
+  <div class="sources">
+    <h2 class="heading">Sources</h2>
+    <a target="_blank" href="https://en.wikipedia.org/wiki/List_of_countries_by_suicide_rate">https://en.wikipedia.org/wiki/List_of_countries_by_suicide_rate</a>
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Gender_differences_in_suicide">https://en.wikipedia.org/wiki/Gender_differences_in_suicide</a>
+    <a target="_blank" href="https://www.who.int/news-room/fact-sheets/detail/suicide">https://www.who.int/news-room/fact-sheets/detail/suicide</a>
+  </div>
 
 
   <script type="text/javascript">

@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
 :root {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'DM Sans', sans-serif !important;
   box-sizing: border-box;
+  font-size: 1.3rem !important;
 }
 
 .title {
   text-align: center;
-  font-size: 2.7rem;
+  font-size: 2.2rem;
   font-weight: 800;
   padding: 1rem;
   margin-top: 0;
@@ -17,9 +18,8 @@
 }
 
 .choropleth {
-  padding-top: 5em;
+  margin: 3em auto;
   width: min-content;
-  margin: auto;
 }
 
 .line_chart {
@@ -40,7 +40,83 @@ html {
 
 .tops {
   padding-top: 2em;
-  display: flex;
   margin: auto;
-  justify-content: center;
+  width: max-content;
 }
+
+.intro {
+  width: 65%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 3em auto;
+}
+
+.intro__col {
+  width: 45%;
+}
+
+.heading {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.note {
+  font-size: 0.8rem;
+  text-align: center;
+  color: #232323;
+  width: 60%;
+  margin: 0 auto 5em auto;
+}
+
+.dual_heading {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sources {
+  margin-top: 2em;
+  text-align: center;
+  display: flex;
+  font-size: 0.8rem;;
+  flex-direction: column;
+}
+
+.sources a {
+  margin: 0.5em;
+}
+
+/* .test {
+  width: 2em;
+  height: 2em;
+  background-color: black;
+  margin: 1em;
+}
+
+.one {
+  background-color: #671919;
+}
+
+
+
+.two {
+  background-color: #5c5c23;
+}
+
+
+.three {
+  background-color: #664019;
+}
+
+.four {
+  background-color: #cc6666;
+}
+
+
+.five {
+  background-color: #b98046;
+}
+
+.six {
+  background-color: #9f6080;
+} */
